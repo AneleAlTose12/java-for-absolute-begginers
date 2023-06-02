@@ -1,0 +1,28 @@
+Table 6-1. Java Operators
+CategoryOperatorScope
+casting(type)explicit type conversion
+unary, postfixexpr++, expr–post increment/decrement
+unary, prefix++expr, –exprpre increment/decrement
+unary, logical!negation
+unary, bitwise~bitwise complement performs a bit-by-bit
+reversal of an integer value
+multiplicative, binary*, /, %for numeric types: multiply, divide, and return
+remainder
+additive, binary+, -for numeric types: addition, subtraction; “+”
+also used for String concatenation
+
+bit shifting, binary>>, <<, >>>for numeric types: move bits to the right, left,
+and right ignoring the sign
+conditional, relationalinstanceoftests whether the object is an instance of the
+specified type (class or subclass or interface)
+conditional, relational==, !=, <, >,
+<=, >=equals differs from, lesser than, greater than,
+less than or equals, greater than or equals
+AND, binary&bitwise logical AND
+exclusive OR, binary^bitwise logical XOR
+inclusive OR, binary|bitwise logical OR
+conditional, logical AND&&conditional, logical OR||conditional, ternary? :also called the Elvis operator
+assignment=, +=, -=, *=,
+/= %=, &=, ^=,
+<<= >>=, >>>=
+, |=simple assignment, combined assignments
